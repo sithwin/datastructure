@@ -5,6 +5,7 @@ Javascript example of data structure
 ## Array
 
 - create own array with get, push, pop, delete
+- mergedSortedArrays
 
 ## String
 
