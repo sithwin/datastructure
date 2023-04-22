@@ -10,3 +10,7 @@ Javascript example of data structure
 ## String
 
 - reverse string
+
+## Added BigO
+
+- pairsOfArrays
