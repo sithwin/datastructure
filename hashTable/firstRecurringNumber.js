@@ -9,4 +9,14 @@ function firstRecurringCharacter(input) {
   return undefined;
 } // O(n^2)
 
-console.log(firstRecurringCharacter([2, 5, 1, 2, 3, 5, 1, 2, 4]));
+function firstRecurringCharacter2(input) {
+  const map = {};
+  for (let i = 0; i < input.length; i++) {
+    if (map[input[i]] !== undefined) return input[i];
+    map[input[i]] = i;
+    console.log(map);
+  }
+  return undefined;
+} // O(n)
+
+console.log(firstRecurringCharacter2([2, 5, 1, 2, 3, 5, 1, 2, 4]));
